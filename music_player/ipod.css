@@ -1,0 +1,318 @@
+/*
+	Global classes
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+input{
+	text-align:
+}
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+.head-bar {
+	color: purple;
+	height: 45px;
+	background-color: #e6ccff;
+	text-align: center;
+}
+.head-bar h1{
+	padding-top: 3px;
+	color: white;
+}
+h2{
+	font-size: 1.2em;
+
+}
+.back-button {
+	float: left;
+	margin-top: 5px;
+	margin-left: 15px;
+	width: 42;
+	height: 35;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	background-color: lightgrey;
+
+
+}
+
+/*
+	Albums
+			*/
+			.albums-album-wrapper1 {
+				text-align: center;
+				word-spacing: 10px;
+			}
+			.albums-album-wrapper2{
+				position: relative;
+				text-align: center;
+				word-spacing: 10px;
+			}
+
+			.albums-album-art {
+
+			}
+			#album1{
+				width: 300px;
+				margin:5px;
+				position: relative;
+				top: -20px;
+			}
+			.albums-album-name1 {
+
+				width: 150px;
+				text-align: center;
+				float: left;
+			}
+			.albums-album-name2 {
+
+				width: 150px;
+
+				text-align: center;
+				float: right;
+			}
+			.albums-album-name3 {
+				width: 150px;
+				text-align: center;
+				float: left;
+
+				text-align: center;
+				float: left;
+			}
+			.albums-album-name4 {
+			  width: 150px;
+				text-align: center;
+			  float: right;
+			}
+			#artist{
+				width: 300px;
+				height: 10px;
+				position: relative;
+				top: -30px;
+			}
+			.albums-artist-name1 {
+				width: 150px;
+				text-align: center;
+				line-height: 0.6em;
+				font-size: 0.95em;
+				float:left;
+			}
+			.albums-artist-name2 {
+				width: 150px;
+				text-align: center;
+				line-height: 0.6em;
+				font-size: 0.95em;
+				float: right;
+			}
+			.albums-artist-name3 {
+				text-align: center;
+				width: 150px;
+				line-height: 0.6em;
+				font-size: 0.95em;
+				float: left;
+			}
+			.albums-artist-name4 {
+				width: 150px;
+				text-align: center;
+				line-height: 0.6em;
+				font-size: 0.95em;
+				float: right;
+			}
+
+
+/*
+	Songs
+			*/
+			.songs-info-wrapper {
+
+			}
+
+			.songs-album-art {
+				display: inline;
+
+			}
+
+			.songs-album-name {
+				font-size: 1.8em;
+			  font-weight: bolder;
+				margin: 2px;
+
+			}
+
+			.songs-artist-name {
+				font-style: oblique;
+				font-size: 1.3em;
+				line-height: 35px;
+
+
+			}
+
+			.songs-text-info {
+				position: absolute;
+				top: 180px;
+				left: 200px;
+				width: 200px;
+
+			}
+
+			.songs-album-year {
+				font-size: 2em;
+				font-style:normal;
+				line-height: 35px;
+
+			}
+
+			.songs-list {
+				font-size: 1.2em;
+				font-weight: 400;
+				line-height: 20px;
+			}
+			.songs-list li{
+				margin: 5px;
+				border-width: thin;
+				border-style: solid;
+			}
+			.songs-list a:visited{
+				color: green;
+			}
+			.songs-list a:hover{
+				color:purple;
+				text-decoration: underline;
+			}
+			.songs-list a:active{
+				color:blue;
+			}
+
+/*
+	Player
+			*/
+.player-album-art img{
+	width: 250px;
+	height: 250px;
+  margin:25px 25px 10px;
+	box-shadow: 1px 1px 1px;
+}
+
+#player-song-info {
+	text-align: center;
+	line-height: 1.2em;
+	font-size: 1.2em;
+
+}
+
+#player-song-name {
+	position: relative;
+	top: -10px;
+	text-align: center;
+	margin: 5;
+	margin-bottom: 3;
+	font-size: 1.1rem;
+	color: #9f5cc4;
+
+}
+#time_to_end{
+	width:300px;
+	height: 10;
+	font-size: 0.8rem;
+}
+#brand{
+	position: relative;
+	top: -15px;
+	width:250px;
+
+}
+#start{
+	position: relative;
+	top: -10px;
+	float: left;
+	margin-left: 30;
+}
+#end{
+	position: relative;
+	top: -10px;
+	float: right;
+	margin-right: 30;
+}
+
+#volume-bar{
+	width: 300px;
+	margin-left: 40px;
+}
+
+.volume1 {
+	height: 6px;
+	width: 24px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	margin-bottom: 8;
+	display: inline-block;
+	box-shadow: 0.5px 0.5px 0.5px;
+
+}
+
+.volume2{
+	height: 6px;
+	width: 24px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	margin-bottom: 8;
+	display: inline-block;
+	background-color: #9f5cc4;
+	box-shadow: 0.5px 0.5px 0.5px;
+}
+
+.volume-rocker{
+	width:300px;
+
+}
+
+#volume-up{
+	float: right;
+	margin-right: 50;
+	width: 90;
+	height: 15;
+	text-align: center;
+	line-height: 1em;
+
+}
+#volume-down{
+	float: left;
+	margin-left: 50;
+	width: 90px;
+	height: 15px;
+	text-align: center;
+	line-height: 0.75em;
+}
+
+.player-controls{
+	text-align: center;
+	position: relative;
+	top: -10px;
+
+}
+
+
+#player-time {
+	text-align: center;
+	margin-bottom: 0px;
+
+}
+
+
+#time-elapsed {
+
+}
+
+#time-total{
+
+}
